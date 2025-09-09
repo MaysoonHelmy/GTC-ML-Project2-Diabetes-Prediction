@@ -11,7 +11,7 @@ The project follows a complete ML pipeline:
 - Model training (Logistic Regression, SVM, Random Forest)  
 - Model evaluation and comparison  
 - Saving and loading the best model  
-- Interactive prediction interface with `ipywidgets`  
+- Final prediction demo with sample patient data   
 
 
 
@@ -46,7 +46,7 @@ The project uses the **Pima Indians Diabetes Dataset**, which contains diagnosti
 Install dependencies before running the notebook:  
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn ipywidgets
+pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn 
 ````
 
 
@@ -84,5 +84,5 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn ipywid
 * Handling missing values (zero replacement + KNN imputation)
 * Model tuning with GridSearchCV
 * Visualizations: histograms, heatmaps, scatterplots, confusion matrices
-* Interactive prediction engine with `ipywidgets`
+* End-to-end prediction workflow with sample patient data
 
