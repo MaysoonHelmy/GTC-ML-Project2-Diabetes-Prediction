@@ -63,7 +63,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
    * Train and evaluate models
    * Compare performances
    * Save/load the trained model
-   * Interactively predict diabetes risk
+   * Test prediction on a sample patient
 
 ---
 
